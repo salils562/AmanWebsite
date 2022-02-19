@@ -10,6 +10,16 @@
         body{
             background: url('https://i.pinimg.com/originals/58/18/a2/5818a22389fc27280be6ea4a20e73d22.jpg')no-repeat center center/cover;
         }
+        #check{
+          border-radius:20px;
+           width:70%;
+          padding:20px;
+        }
+        @media screen and (max-width:500px){
+          #check{
+            width: 90%;
+          }
+        }
     </style>
   </head>
   <body style="background-color: #cdf4fd">
@@ -45,7 +55,7 @@
           </div>
         </div>
       </nav>
-      <div class="container my-5 bg-light" style="border-radius:20px; width:70%; padding:20px;">
+      <div class="container my-5 bg-light" id="check">
         <form>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label"><b>Name</b></label>
