@@ -21,9 +21,21 @@ footer #item-2 ul li a{
     color: white;
 }
 #item-3 svg{
-    margin: 5px;
+    margin: 7px;
     height: 2.3rem;
     width: 2.3rem;
+}
+#item-3 a{
+    text-decoration: none;
+    color: white;
+}
+
+#item-3 a:hover{
+    color: blue;
+}
+#item-3 a svg:hover{
+    height: 2.5rem;
+    width: 2.5rem;
 }
 #aboutHeader{
 background-color: rgb(38, 63, 201);   
@@ -41,6 +53,10 @@ justify-content: space-around;
     font-weight: bold;
     margin-right: 20px;
 }
+.formContact{
+    background-color: rgb(240, 240, 240);
+}
+
 @media screen and (max-width:571px){
 footer{
     flex-direction: column;
@@ -65,5 +81,8 @@ footer ul{
     font-size: 1rem;
     width: auto;
     text-align: center;
+}
+.formContact{
+    background: none;
 }
 }
