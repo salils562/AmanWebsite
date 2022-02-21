@@ -5,3 +5,40 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
+footer{
+    background-color: black;
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+footer #item-2 ul{
+    list-style: none;
+}
+footer #item-2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+#item-3 svg{
+    margin: 5px;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+@media screen and (max-width:571px){
+footer{
+    flex-direction: column;
+    align-items:flex-start;
+}
+footer{
+    padding-left: 35px;
+}
+footer ul{
+  margin-left: -26px;
+}
+#item-3 svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+}
