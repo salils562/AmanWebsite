@@ -56,7 +56,36 @@ justify-content: space-around;
 .formContact{
     background-color: rgb(240, 240, 240);
 }
-
+.imageIndex{
+    height: 200px;
+    width: 320px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.flexIndex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.it-1{
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width:710px){
+.it-1{
+    margin-bottom: 20px;
+}    
+.flexIndex{
+    flex-wrap: wrap;
+}
+}
 @media screen and (max-width:571px){
 footer{
     flex-direction: column;
@@ -84,5 +113,17 @@ footer ul{
 }
 .formContact{
     background: none;
+}
+.imageIndex{
+    width: 250px;
+}
+.it-1{
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#item-3 a svg:hover{
+    height: 2rem;
+    width: 2rem;
 }
 }
